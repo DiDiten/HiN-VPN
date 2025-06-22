@@ -769,8 +769,8 @@ function sendMessage($botToken, $chatId, $message, $parse_mode, $keyboard)
 
 function generateHiddifyTags($type)
 {
-    $profileTitle = base64_encode("{$type} | BiB ");
-    return "#profile-title: base64:{$profileTitle}\n#profile-update-interval: 1\n#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n#support-url: https://bibgroup.t.me\n#profile-web-page-url: https://Here_is_Nowhere.t.me
+    $profileTitle = base64_encode("{$type} | BiB");
+    return "#profile-title: base64:{$profileTitle}\n#profile-update-interval: 1\n#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n#support-url: https://hingroup.t.me\n#profile-web-page-url: https://Here_is_Nowhere.t.me
 ";
 }
 
@@ -868,7 +868,7 @@ function generateUpdateTime()
 
 function generateEndofConfiguration()
 {
-    return "vless://acbabca-acab-bcaa-abdc-bbccaabaccab@127.0.0.1:8080?security=tls&type=tcp#👨🏻‍💻%20DEVELOPED-BY%20@YEBEKHE\nvless://acbabca-acab-bcaa-abdc-bbccaabaccab@127.0.0.1:8080?security=tls&type=tcp#📌%20SUPPORT-CONTACT @BiBGROUP.T.ME";
+    return "vless://acbabca-acab-bcaa-abdc-bbccaabaccab@127.0.0.1:8080?security=tls&type=tcp#👨🏻‍💻%20DEVELOPED-BY%20@YEBEKHE\nvless://acbabca-acab-bcaa-abdc-bbccaabaccab@127.0.0.1:8080?security=tls&type=tcp#📌%20SUPPORT-CONTACT @HiNGROUP.T.ME";
 }
 
 function addStringToBeginning($array, $string)
@@ -950,10 +950,11 @@ $sourceNormals = addStringToBeginning(
     "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
 );
 $sourceBase64 = addStringToBeginning(
-    listFilesInDirectory("subscripton/source/hiddify"),
+    listFilesInDirectory("subscription/source/base64"),
     "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
 );
-$sourcesColumn = getFileNamesInDirectory(istFilesInDirectory("subscription/source/hiddify"),
+$sourceHiddify = addStringToBeginning(
+    listFilesInDirectory("subscription/source/hiddify"),
     "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
 );
 $sourcesColumn = getFileNamesInDirectory(
@@ -998,7 +999,7 @@ $keyboard = [
     ],
     [
         [
-            "text" => "🚹 BiB vpn 🚹",
+            "text" => "🚹 گیتهاب BiB VPN 🚹",
             "url" =>
                 "https://github.com/DiDiten/HiN-VPN/blob/main/README.md",
         ],
@@ -1014,6 +1015,6 @@ $message = "🔺 لینک های اشتراک BiB بروزرسانی شدن! �
 
 💥 برای لینک های بیشتر وارد گیتهاب پروژه بشید
 
-🌐 <a href='https://telegram.org/faq#q-what-if-my-hacker-friend-says-they-could-decipher-telegram-mes'>🖕🏿</a>";
+🌐 <a href='https://t.me/hhhhhh'>BiiiiiiB</a>";
 
 sendMessage($botToken, -1002043507701, $message, "html", $keyboard);
