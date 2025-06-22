@@ -927,15 +927,15 @@ getTelegramChannelConfigs($source);
 
 $normals = addStringToBeginning(
     listFilesInDirectory("subscription/normal"),
-    "https://raw.githubusercontent.com/Shadow-130/HiN-VPN/main/"
+    "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
 );
 $base64 = addStringToBeginning(
     listFilesInDirectory("subscription/base64"),
-    "https://raw.githubusercontent.com/Shadow-130/HiN-VPN/main/"
+    "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
 );
 $hiddify = addStringToBeginning(
     listFilesInDirectory("subscription/hiddify"),
-    "https://raw.githubusercontent.com/Shadow-130/HiN-VPN/main/"
+    "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
 );
 $protocolColumn = getFileNamesInDirectory(
     listFilesInDirectory("subscription/normal")
@@ -947,15 +947,14 @@ $cells1Array = convertArrays($protocolColumn, $normals, $base64, $hiddify);
 
 $sourceNormals = addStringToBeginning(
     listFilesInDirectory("subscription/source/normal"),
-    "https://raw.githubusercontent.com/Shadow-130/HiN-VPN/main/"
+    "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
 );
 $sourceBase64 = addStringToBeginning(
-    listFilesInDirectory("subscription/source/base64"),
-    "https://raw.githubusercontent.com/Shadow-130/HiN-VPN/main/"
+    listFilesInDirectory("subscripton/source/hiddify"),
+    "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
 );
-$sourceHiddify = addStringToBeginning(
-    listFilesInDirectory("subscription/source/hiddify"),
-    "https://raw.githubusercontent.com/Shadow-130/HiN-VPN/main/"
+$sourcesColumn = getFileNamesInDirectory(istFilesInDirectory("subscription/source/hiddify"),
+    "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
 );
 $sourcesColumn = getFileNamesInDirectory(
     listFilesInDirectory("subscription/source/normal")
@@ -999,9 +998,9 @@ $keyboard = [
     ],
     [
         [
-            "text" => "🚹 گیتهاب HiN VPN 🚹",
+            "text" => "🚹 HeH vpn 🖕🏿 🚹",
             "url" =>
-                "https://github.com/Shadow-130/HiN-VPN/blob/main/README.md",
+                "https://github.com/DiDiten/HiN-VPN/blob/main/README.md",
         ],
     ],
 ];
@@ -1015,6 +1014,6 @@ $message = "🔺 لینک های اشتراک HiN بروزرسانی شدن! �
 
 💥 برای لینک های بیشتر وارد گیتهاب پروژه بشید
 
-🌐 <a href='https://t.me/Here_is_Nowhere'>𝗛.𝗜.𝗡 🫧</a>";
+🌐 <a href='https://telegram.org/faq#q-what-if-my-hacker-friend-says-they-could-decipher-telegram-mes'>🖕🏿</a>";
 
 sendMessage($botToken, -1002043507701, $message, "html", $keyboard);
