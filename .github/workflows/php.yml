@@ -1,9 +1,9 @@
-name: "HiN VPN"
+name: "BiB VPN"
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '0,30 * * * *'
+  workflow_dispatch:
 
 jobs:
   HiN-VPN:
@@ -20,11 +20,11 @@ jobs:
       - name: Execute PHP script
         run: |
           php base.php
-          git config --global user.email "yebekhe@gmail.com"
-          git config --global user.name "yebekhe"
+          git config --global user.email "github-actions[bot]"
+          git config --global user.name "github-actions[bot]@users.noreply.github.com"
           git config credential.helper store
           git add -A
-          git commit -m "🚀 Last Run - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "⚡ Last Run - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
           git push
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
