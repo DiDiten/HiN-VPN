@@ -915,7 +915,7 @@ function generateReadme($table1, $table2)
 > 
 > <br/> 
     
-" . $table1 . "
+{$table1}
 
 <br/> 
 
@@ -925,7 +925,7 @@ function generateReadme($table1, $table2)
 
 <br/>
 
-" . $table2 . "
+{$table2}
 
 <br/> 
 
