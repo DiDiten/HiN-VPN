@@ -162,7 +162,7 @@ function configParse($input, $configType)
             "params" => $params,
             "hash" => isset($parsedUrl["fragment"])
                 ? $parsedUrl["fragment"]
-                : "TVC" . getRandomName(),
+                : "DIANA" . getRandomName(),
         ];
 
         if ($configType === "tuic") {
@@ -181,7 +181,7 @@ function configParse($input, $configType)
         $server_port = $url["port"];
         $name = isset($url["fragment"])
             ? urldecode($url["fragment"])
-            : "TVC" . getRandomName();
+            : "DIANA" . getRandomName();
         $server = [
             "encryption_method" => $encryption_method,
             "password" => $password,
@@ -442,7 +442,7 @@ function is_ip($string)
 
 function maskUrl($url)
 {
-    return "https://itsyebekhe.github.io/urlmskr/" . base64_encode($url);
+    return "https://sahar-km.github.io/arcane/create/" . base64_encode($url);
 }
 
 function convertToJson($input)
@@ -638,7 +638,7 @@ function generateName($config, $type, $source)
 
     $lantency = ping($configIp, $configPort, 1);
 
-    return "🆔{$source} {$isEncrypted} {$configType}-{$configNetwork}-{$configTLS} {$configFlag} {$configLocation} {$lantency}";
+    return "{$source} {$isEncrypted} {$configType}-{$configNetwork}-{$configTLS} {$configFlag} {$configLocation} {$lantency}";
 }
 
 function getNetwork($config, $type)
@@ -769,8 +769,8 @@ function sendMessage($botToken, $chatId, $message, $parse_mode, $keyboard)
 
 function generateHiddifyTags($type)
 {
-    $profileTitle = base64_encode("{$type} | BiB");
-    return "#profile-title: base64:{$profileTitle}\n#profile-update-interval: 1\n#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n#support-url: https://hingroup.t.me\n#profile-web-page-url: https://Here_is_Nowhere.t.me
+    $profileTitle = base64_encode("{$type} | DiDiten");
+    return "#profile-title: base64:{$profileTitle}\n#profile-update-interval: 1\n#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n#support-url: https://t.me/new_folder_revil\n#profile-web-page-url: https://t.me/new_folder_revil
 ";
 }
 
@@ -863,12 +863,12 @@ function getTehranTime()
 function generateUpdateTime()
 {
     $tehranTime = getTehranTime();
-    return "vless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080?security=tls&type=tcp#⚠️%20FREE%20TO%20USE!\nvless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080?security=tls&type=tcp#🔄%20LATEST-UPDATE%20📅%20{$tehranTime}\n";
+    return "vless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080?security=tls&type=tcp#⭕%20LATEST-UPDATE%20❕%20{$tehranTime}\n";
 }
 
 function generateEndofConfiguration()
 {
-    return "vless://acbabca-acab-bcaa-abdc-bbccaabaccab@127.0.0.1:8080?security=tls&type=tcp#👨🏻‍💻%20DEVELOPED-BY%20@YEBEKHE\nvless://acbabca-acab-bcaa-abdc-bbccaabaccab@127.0.0.1:8080?security=tls&type=tcp#📌%20SUPPORT-CONTACT @HiNGROUP.T.ME";
+    return "vless://acbabca-acab-bcaa-abdc-bbccaabaccab@127.0.0.1:443?security=tls&type=tcp#🦋Nighty Night";
 }
 
 function addStringToBeginning($array, $string)
@@ -884,47 +884,73 @@ function addStringToBeginning($array, $string)
 
 function generateReadme($table1, $table2)
 {
-    $base = "## BiB VPN: Your Gateway to Secure and Free Internet Access
+    $base = "# BiB VPN
 
 > [!NOTE]
 > 
-> **BiB VPN** stands out as a pioneering open-source project designed to empower users with secure, unrestricted internet access. 
+> **BiB VPN**
+> 
+> Your Gateway to Secure and Free Internet Access
 > 
 > Unlike traditional VPN services, BiB VPN leverages the Telegram platform to collect and distribute VPN configurations, offering a unique and community-driven approach to online privacy and security.
 > 
-> **Secure. Private. Fast.**
+> **Secure. Open-source. Fast.**
+> 
+> <br/> 
+
+<br/> 
+
+## Table of content
+
+- [Subscription Links](#subscription-links)
+  - [Sources](#sources)
+- [How It Works](#how-it-works)
+
+<br></br>
+
+## Subscription Links
+
+> [!NOTE]
+> 
+> To get started with BiB VPN, simply follow the subscription links provided below.
+> 
 > <br/> 
     
-### How It Works
-    
-1. **Telegram Integration**: BiB VPN utilizes a Telegram bot to gather VPN configuration files from contributors. This bot acts as a central hub where users can submit their VPN configurations, ensuring a diverse and robust set of options for subscribers.
-    
-2. **Subscription Link**: Once the configurations are collected, BiB VPN processes them and provides a subscription link. This link is freely accessible to anyone, allowing them to download the latest VPN configurations directly to their devices.
-    
-3. **Open Source**: Being an open-source project, BiB VPN encourages collaboration and transparency. The source code is available for anyone to review, contribute to, or modify, ensuring that the service remains secure and up-to-date with the latest technological advancements.
-    
-4. **PHP Backend**: The backend of BiB VPN is developed using PHP, a widely-used server-side scripting language known for its flexibility and ease of use. This choice of technology ensures that the service can be easily maintained and scaled as needed.
-    
-### Benefits
-    
-- **Free Access**: BiB VPN is completely free to use, making it an excellent choice for users who are looking for a cost-effective solution to enhance their online privacy.
-- **Community-Driven**: By relying on community contributions, BiB VPN offers a wide range of VPN configurations, ensuring that users have access to a variety of options that suit their specific needs.
-- **Enhanced Security**: The open-source nature of BiB VPN allows for constant scrutiny and improvement, ensuring that the service remains secure and resilient against potential threats.
-- **Easy to Use**: With a simple subscription link, users can quickly and easily set up their VPN connection, making the process accessible to both tech-savvy individuals and newcomers alike.
-    
-### Subscription Links
-    
-To get started with BiB VPN, simply follow the subscription links provided below. This link will grant you access to the latest VPN configurations, allowing you to secure your internet connection and browse the web with peace of mind.
-    
 " . $table1 . "
-    
-Below is a table that shows the generated subscription links from each source, providing users with a variety of options to choose from.
-    
+
+<br/> 
+
+## Sources
+
+> Below is a table that shows the generated subscription links from each source, providing users with a variety of options to choose from.
+
+<br/>
+
 " . $table2 . "
-    
-This table provides a quick reference for the different subscription links available through BiB VPN, allowing users to easily select the one that best suits their needs.
-    
-**BiB VPN** is more than just a VPN service; it's a movement towards a more secure and open internet. By leveraging the power of community and open-source technology, BiB VPN is paving the way for a future where online privacy is a fundamental right for all.";
+
+<br/> 
+
+> This table provides a quick reference for the different subscription links available through BiB VPN, allowing users to easily select the one that best suits their needs.
+
+<br/> 
+
+## How It Works
+
+> [!TIP]
+> 
+> 1. **Telegram Integration**: BiB VPN utilizes a Telegram bot to gather VPN configuration files from contributors. This bot acts as a central hub where users can submit their VPN configurations, ensuring a diverse and robust set of options for subscribers.
+> 
+> 2. **Subscription Link**: Once the configurations are collected, BiB VPN processes them and provides a subscription link. This link is freely accessible to anyone, allowing them to download the latest VPN configurations directly to their devices.
+>     
+> 3. **Open Source**: Being an open-source project, BiB VPN encourages collaboration and transparency. The source code is available for anyone to review, contribute to, or modify, ensuring that the service remains secure and up-to-date with the latest technological advancements.
+> 
+> 4. **PHP Backend**: The backend of BiB VPN is developed using PHP, a widely-used server-side scripting language known for its flexibility and ease of use. This choice of technology ensures that the service can be easily maintained and scaled as needed.
+> 
+> <br/> 
+
+<br/>
+
+<strong>Done ✅</strong>
 
     return $base;
 }
@@ -938,8 +964,6 @@ $normals = addStringToBeginning(
 );
 $base64 = addStringToBeginning(
     listFilesInDirectory("subscription/base64"),
-    "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
-);
 $hiddify = addStringToBeginning(
     listFilesInDirectory("subscription/hiddify"),
     "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
@@ -949,7 +973,7 @@ $protocolColumn = getFileNamesInDirectory(
 );
 
 
-$title1Array = ["Protocol", "Normal", "Base64", "Hiddify"];
+$title1Array = ["**Protocol**", "**Normal**", "**Base64**", "**Hiddify**"];
 $cells1Array = convertArrays($protocolColumn, $normals, $base64, $hiddify);
 
 $sourceNormals = addStringToBeginning(
@@ -968,7 +992,7 @@ $sourcesColumn = getFileNamesInDirectory(
     listFilesInDirectory("subscription/source/normal")
 );
 
-$title2Array = ["Source", "Normal", "Base64", "Hiddify"];
+$title2Array = ["**Source**", "**Normal**", "**Base64**", "**Hiddify**"];
 $cells2Array = convertArrays(
     $sourcesColumn,
     $sourceNormals,
@@ -987,7 +1011,6 @@ $randType = $hiddify[$randKey];
 
 $tehranTime = getTehranTime();
 $botToken = getenv("TELEGRAM_BOT_TOKEN");
-$keyboard = [
     [
         [
             "text" => "📲 STREISAND",
