@@ -884,11 +884,10 @@ function addStringToBeginning($array, $string)
 
 function generateReadme($table1, $table2)
 {
-    $base = "# BiB VPN
+    $readmeContent = <<<MARKDOWN
+# BiB VPN
 
 > [!NOTE]
-> 
-> **BiB VPN**
 > 
 > Your Gateway to Secure and Free Internet Access
 > 
@@ -951,8 +950,9 @@ function generateReadme($table1, $table2)
 <br/>
 
 <strong>Done ✅</strong>
+MARKDOWN;
 
-    return $base;
+    return $readmeContent;
 }
 
 $source = trim(file_get_contents("source.conf"));
@@ -964,6 +964,8 @@ $normals = addStringToBeginning(
 );
 $base64 = addStringToBeginning(
     listFilesInDirectory("subscription/base64"),
+    "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
+);
 $hiddify = addStringToBeginning(
     listFilesInDirectory("subscription/hiddify"),
     "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/"
@@ -973,7 +975,7 @@ $protocolColumn = getFileNamesInDirectory(
 );
 
 
-$title1Array = ["**Protocol**", "**Normal**", "**Base64**", "**Hiddify**"];
+$title1Array = ["Protocol", "Normal", "Base64", "Hiddify"];
 $cells1Array = convertArrays($protocolColumn, $normals, $base64, $hiddify);
 
 $sourceNormals = addStringToBeginning(
@@ -992,7 +994,7 @@ $sourcesColumn = getFileNamesInDirectory(
     listFilesInDirectory("subscription/source/normal")
 );
 
-$title2Array = ["**Source**", "**Normal**", "**Base64**", "**Hiddify**"];
+$title2Array = ["Source", "Normal", "Base64", "Hiddify"];
 $cells2Array = convertArrays(
     $sourcesColumn,
     $sourceNormals,
@@ -1011,6 +1013,7 @@ $randType = $hiddify[$randKey];
 
 $tehranTime = getTehranTime();
 $botToken = getenv("TELEGRAM_BOT_TOKEN");
+$keyboard = [
     [
         [
             "text" => "📲 STREISAND",
@@ -1022,16 +1025,16 @@ $botToken = getenv("TELEGRAM_BOT_TOKEN");
         [
             "text" => "📲 HIDDIFY",
             "url" => maskUrl(
-                "hiddify://import/" . 
+                "hiddify://import/" .
                     $randType
             )
         ]
     ],
     [
         [
-            "text" => "گیت‌هاب BiB VPN",
+            "text" => "Our Github",
             "url" =>
-                "https://github.com/DiDiten/HiN-VPN/blob/main/README.md",
+                "https://github.com/DiDiten/",
         ],
     ],
 ];
