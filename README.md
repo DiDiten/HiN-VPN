@@ -28,7 +28,7 @@
 > 
 > <br/> 
     
-" . | Protocol | Normal | Base64 | Hiddify |
+| **Protocol** | **Normal** | **Base64** | **Hiddify** |
 | -------- | ------ | ------ | ------- |
 | vless | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/vless | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/base64/vless | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/hiddify/vless |
 | trojan | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/trojan | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/base64/trojan | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/hiddify/trojan |
@@ -38,7 +38,6 @@
 | vmess | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/vmess | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/base64/vmess | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/hiddify/vmess |
 | mix | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/mix | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/base64/mix | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/hiddify/mix |
 | tuic | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/tuic | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/base64/tuic | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/hiddify/tuic |
- . "
 
 <br/> 
 
@@ -48,7 +47,7 @@
 
 <br/>
 
-" . | Source | Normal | Base64 | Hiddify |
+| **Source** | **Normal** | **Base64** | **Hiddify** |
 | ------ | ------ | ------ | ------- |
 | lnrbymaa | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/normal/lnrbymaa | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/base64/lnrbymaa | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/hiddify/meli_proxyy |
 | vlessconfight | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/normal/vlessconfight | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/base64/vlessconfight | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/hiddify/lnrbymaa |
@@ -100,7 +99,6 @@
 | xixv2ray | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/normal/xixv2ray | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/base64/xixv2ray | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/hiddify/vless_config |
 | vpn4everyone | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/normal/vpn4everyone | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/base64/vpn4everyone | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/hiddify/vpnserverrr |
 | configfa | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/normal/configfa | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/base64/configfa | https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/source/hiddify/SOSkeyNET |
- . "
 
 <br/> 
 
