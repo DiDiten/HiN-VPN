@@ -1,16 +1,15 @@
-vless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080?security=tls&type=tcp#⭕%20LATEST-UPDATE%20❕%20Tue-01-MEHR-1404 🕑 11:50
-vless://1a6fe500-59da-4598-8576-256f06765ffb@82.148.21.174:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#AzadNet%20🔒%20VL-TCP-%20🇷🇺%20RU%20145ms
-vless://f825cb73-9140-4314-972c-9812ab785993@qow.mahi25.cfd:4928?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#AzadNet%20🔓%20VL-TCP-N/A%20🇩🇪%20DE%20181ms
+vless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080?security=tls&type=tcp#⭕%20LATEST-UPDATE%20❕%20Wed-02-MEHR-1404 🕑 11:50
+vmess://eyJhZGQiOiI4LjIyMC4xODguMjM4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImI1YTgyYzFkLTBkOTgtNGQ0ZC1hNDk5LTVkMDRlNGJiMTE0ZCIsIm5ldCI6IndzIiwicGF0aCI6IlwvYXJraT9lZD0yMDQ4IiwicG9ydCI6IjU5MTM0IiwicHMiOiJBemFkTmV0IFx1ZDgzZFx1ZGQxMyBWTS1XUy1OXC9BIFx1ZDgzY1x1ZGRmNVx1ZDgzY1x1ZGRlZCBQSCAxOTVtcyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
+vless://f825cb73-9140-4314-972c-9812ab785993@qow.mahi25.cfd:4928?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#AzadNet%20🔓%20VL-TCP-N/A%20🇩🇪%20DE%20178ms
 vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?security=reality&encryption=none&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=www.steampowered.com&sid=85#AzadNet%20🔒%20VL-TCP-%20🇩🇪%20DE%20down
-vless://39c8e0d3-c932-4ff7-b3e3-83002647907b@m44a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#AzadNet%20🔓%20VL-TCP-N/A%20🇬🇧%20GB%20232ms
+vless://39c8e0d3-c932-4ff7-b3e3-83002647907b@m44a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#AzadNet%20🔓%20VL-TCP-N/A%20🇬🇧%20GB%20182ms
+vless://b65f4df7-f6af-42b2-877a-cef33f21675e@89.169.160.84:2053?path=%2Fsnippets%2Fip%3Dproxyip.fxxk.dedyn.io%3A443%3Fed%3D2560&security=tls&encryption=none&host=kejiland.freewarp.eu.org&type=ws&sni=kejiland.freewarp.eu.org#AzadNet%20🔒%20VL-WS-N/A%20🇷🇺%20RU%20176ms
 trojan://diSO4oXGtu@5.255.102.41:57345?type=xhttp&path=%2Fdictator123&host=mooshali.arshiacomplus.dpdns.org&mode=stream-one&security=tls&fp=firefox&alpn=h3&sni=mooshali.arshiacomplus.dpdns.org#AzadNet%20🔒%20TR-XHTTP-N/A%20🇳🇱%20NL%20down
 trojan://4mZzfWMLGz@5.255.102.41:10979?type=xhttp&path=%2Fdictator232&host=mooshali.arshiacomplus.dpdns.org&mode=packet-up&security=tls&fp=firefox&alpn=http%2F1.1&sni=mooshali.arshiacomplus.dpdns.org#AzadNet%20🔒%20TR-XHTTP-N/A%20🇳🇱%20NL%20down
 trojan://02XtoczO7V@5.255.102.41:17590?type=ws&path=%2Fhishhhh123&host=mooshali.arshiacomplus.dpdns.org&security=tls&fp=firefox&alpn=http%2F1.1&sni=mooshali.arshiacomplus.dpdns.org#AzadNet%20🔒%20TR-WS-N/A%20🇳🇱%20NL%20down
-trojan://02XtoczO7V@creativecommons.org:443?path=%2Fhishhhh123&security=tls&alpn=http%2F1.1&host=mooshali.arshiacomplus.dpdns.org&fp=firefox&type=ws&sni=mooshali.arshiacomplus.dpdns.org#AzadNet%20🔒%20TR-WS-N/A%20🇺🇸%20US%2031ms
-trojan://o6x5BZAuSj@creativecommons.org:2053?path=%2Fhishhhh123&security=tls&alpn=http%2F1.1&host=mooshali.arshiacomplus.dpdns.org&fp=firefox&type=ws&sni=mooshali.arshiacomplus.dpdns.org#AzadNet%20🔒%20TR-WS-N/A%20🇺🇸%20US%2016ms
+trojan://02XtoczO7V@creativecommons.org:443?path=%2Fhishhhh123&security=tls&alpn=http%2F1.1&host=mooshali.arshiacomplus.dpdns.org&fp=firefox&type=ws&sni=mooshali.arshiacomplus.dpdns.org#AzadNet%20🔒%20TR-WS-N/A%20🇺🇸%20US%2039ms
+trojan://o6x5BZAuSj@creativecommons.org:2053?path=%2Fhishhhh123&security=tls&alpn=http%2F1.1&host=mooshali.arshiacomplus.dpdns.org&fp=firefox&type=ws&sni=mooshali.arshiacomplus.dpdns.org#AzadNet%20🔒%20TR-WS-N/A%20🇺🇸%20US%209ms
 trojan://4xS33pu88RaTF37ZxRjzAZc9zxe8OaYBX9CSO3p5SSxquFOFEySnDlCleCFA2DN3gaeDl@mintaka.appagent.net:443?security=tls&headerType=none&type=tcp#AzadNet%20🔒%20TR-TCP-N/A%20🇺🇸%20US%20down
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnOEJXYVk4RlloS2ZWTU9UOU4wSUlC@154.205.134.132:8443#AzadNet%20🔒%20SS-TCP-TLS%20🇸🇦%20SA%20224ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@4.223.100.248:48172#AzadNet%20🔒%20SS-TCP-TLS%20🇸🇪%20SE%20down
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#AzadNet%20🔒%20SS-TCP-TLS%20🇺🇸%20US%20109ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#AzadNet%20🔒%20SS-TCP-TLS%20🇺🇸%20US%20109ms
+trojan://YwuvGJk36B@creativecommons.org:2053?path=%2Fyamtekodasayahhh&security=tls&alpn=http%2F1.1&host=kotlet.arshiacomplus.dpdns.org&fp=firefox&type=ws&sni=kotlet.arshiacomplus.dpdns.org#AzadNet%20🔒%20TR-WS-N/A%20🇺🇸%20US%2010ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#AzadNet%20🔒%20SS-TCP-TLS%20🇺🇸%20US%20135ms
 vless://acbabca-acab-bcaa-abdc-bbccaabaccab@127.0.0.1:443?security=tls&type=tcp#🦋Nighty Night
